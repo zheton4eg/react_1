@@ -1,8 +1,7 @@
-import logo from './logo.svg' //Scalable Vector Graphics
+import logo from '../../logo.svg'; //Scalable Vector Graphics
 
 function Header() {
-    return
-    (
+    return (
         <header className="App-header">
             <img src={logo} className="App-logo" alt="logo" />
             <p>
@@ -19,3 +18,5 @@ function Header() {
         </header>
     )
 }
+
+export default Header;
