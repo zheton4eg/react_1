@@ -5,3 +5,21 @@ article
    padding:25px;
    margin:0;
 }
+/* Контейнер для сетки карточек */
+.app {
+  /* Включаем CSS Grid layout для создания сетки */
+  display: grid;
+  
+  /* Создаем 3 колонки равной ширины (1fr - fractional unit) */
+  grid-template-columns: repeat(3, 1fr);
+  
+}
+
+/* Стили для отдельной карточки */
+.card {
+
+  /* Выравнивание текста по центру */
+  text-align: center;
+
+}
+
